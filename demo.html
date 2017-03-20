@@ -12,7 +12,9 @@
         Ваш браузер не пожжерживает тег audio!
     </audio>
     <script>
-        console.log(synchTabs());
+        synchTabs();
+        console.log('number tab: ' + sessionStorage.getItem('currentTab'));
+        console.log('queue tabs: ' + localStorage.getItem('arrIdInsets'));
     </script>
 </body>
 </html>
